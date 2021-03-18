@@ -13,17 +13,17 @@ public class Ex02 {
         queue.insertValue(30);
         queue.insertValue(40);
        
-        System.out.println(queue.getQuantity());
+        System.out.println("Itens na fila: " + queue.getQuantity());
         queue.printAllValues();
         
         queue.remove();
         
-        System.out.println(queue.getQuantity());
+        System.out.println("Itens na fila: " + queue.getQuantity());
         queue.printAllValues();
         
         queue.remove();
         
-        System.out.println(queue.getQuantity());
+        System.out.println("Itens na fila: " + queue.getQuantity());
         queue.printAllValues();
         
         System.out.println(queue.isEmpty() ? "Está vazia": "Não está vazia");

@@ -34,9 +34,11 @@ public class PersonalQueue {
             throw new Error("A pilha está vazia");
         }
         
+        Node removedNode = this.firstElement;
+
         this.firstElement = this.firstElement.getNextValue();
         
-        return this.firstElement;
+        return removedNode;
     }  
     
     public int searchValueIndex(int value) {        

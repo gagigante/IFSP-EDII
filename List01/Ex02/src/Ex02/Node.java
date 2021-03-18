@@ -1,4 +1,4 @@
-package exer02lista01;
+package Ex02;
 
 public class Node {
     private int value;
